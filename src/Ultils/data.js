@@ -31,16 +31,31 @@ export const categories = [
     id: 1,
     img: "https://images.pexels.com/photos/5886041/pexels-photo-5886041.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
     title: "SHIRT STYLE!",
+    cat: "women"
   },
   {
     id: 2,
     img: "https://images.pexels.com/photos/2983464/pexels-photo-2983464.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
     title: "LOUNGEWEAR LOVE",
+    cat:"coat"
   },
   {
     id: 3,
     img: "https://images.pexels.com/photos/5480696/pexels-photo-5480696.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
     title: "LIGHT JACKETS",
+    cat: "jeans"
+  },
+  {
+    id: 4,
+    img: "https://static.nike.com/a/images/f_auto/dpr_2.0/w_515,c_limit/96344c3d-435d-4a2d-aae1-2d72b91826ab/men-s-shoes-clothing-accessories.jpg",
+    title: "MAN",
+    cat: "man"
+  },
+  {
+    id: 5,
+    img: "https://static.nike.com/a/images/f_auto/dpr_2.0/h_644,c_limit/c031f28c-219a-4fc3-8b10-76f2fb2c1b20/men-s-shoes-clothing-accessories.jpg",
+    title: "SHOES",
+    cat: "shoes"
   },
 ];
 

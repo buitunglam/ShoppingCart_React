@@ -1,5 +1,5 @@
 import React, {useState} from "react";
-import styled from "styled-components";
+// import styled from "styled-components";
 import { ArrowRightOutlined, ArrowLeftOutlined } from "@mui/icons-material";
 import { sliderItems } from "Ultils/data";
 import {
