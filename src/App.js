@@ -13,7 +13,7 @@ import {
 import SuccessPage from "Pages/SuccessPage/SuccessPage";
 
 function App() {
-  const user = true;
+  const user = false;
   return (
     <Router>
       <Switch>

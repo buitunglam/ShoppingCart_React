@@ -36,7 +36,7 @@ import {
 } from "./style";
 import { useSelector } from "react-redux";
 import StripeCheckout from "react-stripe-checkout";
-import { userRequest } from "service/callApi";
+import { userRequest } from "service/baseRequest";
 import { useHistory } from "react-router-dom";
 
 const KEY = process.env.REACT_APP_STRIPE;

@@ -5,7 +5,7 @@ import Footer from "Components/Footer/Footer";
 import Navbar from "Components/Navbar/Navbar";
 import NewsLetter from "Components/NewsLetter/NewsLetter";
 import { useLocation } from "react-router-dom";
-import { publicRequest } from "service/callApi";
+import { publicRequest } from "service/baseRequest";
 import {
   Container,
   Wrapper,
@@ -27,7 +27,7 @@ import {
   Button,
 } from "./style";
 import { useDispatch } from "react-redux";
-import {addProduct} from 'redux/cartRedux';
+import {addProduct} from 'redux/cartSlice';
 
 const ProductDetail = () => {
   const dispatch = useDispatch();
